@@ -41,7 +41,7 @@ public class LifeSycleSubActivity extends AppCompatActivity {
     }
     @Override
     public void onDestroy(){
-        Log.i("LifeCycleSample", "Sub onDestroy() called.");
+        Log.i("LifeCycleSample1", "Sub onDestroy() called.");
         super.onDestroy();
     }
     public void onButtonClick(View view){
